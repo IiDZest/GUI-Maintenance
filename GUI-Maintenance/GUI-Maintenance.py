@@ -146,7 +146,7 @@ def update_table():
     # print(data)
 
     for d in data:
-        d = list(d)
+        d = list(d) #Convert Tuple to List
         del d[0]
         mtwordorderlist.insert('','end',values=d)
 
